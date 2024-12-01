@@ -1,0 +1,41 @@
+.about {
+    text-align: center;
+}
+
+.about__title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about__description {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: var(--size-base);
+}
+
+.about__menu {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 0;
+    flex-direction: column;
+    gap: 1em;
+    list-style: '\1F44D';
+}
+
+.about__list {
+    list-style: none;
+    
+}
+
+.about__list::before {
+    content: '';
+    padding-right: 0.5em;
+}
+
+.about__picture {
+    margin: 0 auto;
+    width: 460;
+
+}
