@@ -1,4 +1,5 @@
 .about {
+    display: block;
     text-align: center;
 }
 
@@ -17,21 +18,20 @@
 
 .about__menu {
     display: flex;
-    margin-top: 2rem;
-    padding-left: 0;
     flex-direction: column;
+    margin-top: 1rem;
     gap: 1em;
-    list-style: '\1F44D';
+    text-align: start;
+    padding-left: 0;
 }
 
 .about__list {
-    list-style: none;
-    
+    list-style-type: '\1F44D';
 }
 
 .about__list::before {
     content: '';
-    padding-right: 0.5em;
+    margin-left: 2em;
 }
 
 .about__picture {
