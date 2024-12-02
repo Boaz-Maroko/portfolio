@@ -28,6 +28,7 @@
     text-align: start;
     padding-left: 2em;
     color: var(--sly-txt);
+    margin: 1rem auto;
 }
 
 .about__list    {
