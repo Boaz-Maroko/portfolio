@@ -1,0 +1,12 @@
+.featured {
+    margin-top: 0.5rem;
+}
+.featured__title {
+    text-align: center;
+    
+}
+
+.featured__img {
+    margin-top: 1rem auto;
+    padding: 1rem auto;
+}

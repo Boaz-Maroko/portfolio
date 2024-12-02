@@ -82,4 +82,5 @@ h1 {
 
 hr {
   border: 1px solid var(--strong-color);
+  margin-top: 0.5rem;
 }
