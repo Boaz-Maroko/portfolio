@@ -84,3 +84,7 @@ hr {
   border: 1px solid var(--strong-color);
   margin-top: 0.5rem;
 }
+
+footer {
+  text-align: center;
+}

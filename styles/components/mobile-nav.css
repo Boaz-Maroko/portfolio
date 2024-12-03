@@ -1,0 +1,28 @@
+.mobile-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: var(--backgroud-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.mobile-nav__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: var(--size-ss);
+    transition: color 0.3s;
+
+}
