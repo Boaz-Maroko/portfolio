@@ -116,7 +116,7 @@
 /* xl */
 @media (min-width: 1280px) {
     .about__description {
-        max-width: 100%;
+        max-width: 75ch;
     }
 
     .about__picture {

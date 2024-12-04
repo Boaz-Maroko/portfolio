@@ -4,7 +4,7 @@
     text-decoration: none;
     letter-spacing: -0.05em;
     background-color: var(--button-color);
-    color: var(--primary-text-color);
+    color: #FFFFFF;
     padding: 0.5em 1em;
     border-radius: 6px;
     box-shadow: 0px 10px 20px rgba(230, 25, 134, 0.5), 0px 6px 6px rgba(230, 25, 134, 0.5), 0 0 100px -10px var(--button-color);

@@ -5,6 +5,8 @@
   --sly-txt: #CCC7FE;
   --strong-color: #7E47E4;
 
+  /* --sun-color: #FFFFFF; */
+
   /* rose 	rgb(230, 25, 134) */
   /* indigo rgb(126, 71, 228)*/
 
@@ -34,9 +36,21 @@
   line-height: calc(1em + 0.5rem);
 }
 
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
+
+.light__theme {
+  --backgroud-color: #FFFFFF;
+  --primary-text-color: #0D0816;
+  --button-color: #E61986;
+  --sly-txt: #1c1b27;
+  --strong-color: #7E47E4;
+
+  /* --sun-color: #000000; */
+}
+
 
 body {
   font-family: 'Sansita', serif;

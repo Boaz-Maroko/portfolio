@@ -10,3 +10,8 @@ import '../styles/components/mobile-nav.css';
 
 import '../styles/utils.css';
 
+import mobileNavigation from './utils.js/mobile_nav';
+import darkMode from './utils.js/dark_mode';
+
+darkMode();
+mobileNavigation();
