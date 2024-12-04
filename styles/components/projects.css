@@ -8,6 +8,7 @@
     max-width: 55ch;
     margin-top: 0.5rem;
     line-height: 1.75em;
+    color: var(--sly-txt);
     
 }
 
@@ -32,16 +33,6 @@
     .container {
         max-width: 768px;
     }
-}
-/* lg */
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }
-
-    .section {
-        margin-top: 10rem;
-    }
 
     .projects__work {
         display: grid;
@@ -57,15 +48,12 @@
 
     .image1 {
         grid-area: image1;
-        max-width: 620px;
     }
     .image2 {
         grid-area: image2;
-        max-width: 620px;
     }
     .image3 {
         grid-area: image3;
-        max-width: 620px;
     }
     .content1 {
         grid-area: content1;
@@ -79,6 +67,17 @@
         grid-area: content3;
         max-width: 75ch;
     }
+}
+/* lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .section {
+        margin-top: 10rem;
+    }
+
 }
 /* xl */
 @media (min-width: 1280px) {
