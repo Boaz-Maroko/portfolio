@@ -1,0 +1,104 @@
+:root {
+  --backgroud-color: #0D0816;
+  --primary-text-color: #FFFFFF;
+  --button-color: #E61986;
+  --sly-txt: #CCC7FE;
+  --strong-color: #7E47E4;
+
+  /* --sun-color: #FFFFFF; */
+
+  /* rose 	rgb(230, 25, 134) */
+  /* indigo rgb(126, 71, 228) */
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+
+
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.light__theme {
+  --backgroud-color: #FFFFFF;
+  --primary-text-color: #0D0816;
+  --button-color: #E61986;
+  --sly-txt: #1c1b27;
+  --strong-color: #7E47E4;
+
+  /* --sun-color: #000000; */
+}
+
+
+body {
+  font-family: 'Sansita', serif;
+  background-color: var(--backgroud-color);
+  color: var(--primary-text-color);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+img,
+picture,
+svg,
+canvas,
+video {
+  display: flex;
+  user-select: none;
+  max-width: 100%;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  color: var(--button-color);
+}
+
+strong {
+  color: var(--strong-color);
+}
+
+h1 {
+  font-size: var(--size-5xl);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+hr {
+  border: 1px solid var(--strong-color);
+  margin-top: 0.5rem;
+}
+
+footer {
+  text-align: center;
+}

@@ -1,0 +1,131 @@
+.about {
+    display: block;
+    margin: 1rem auto;
+    /* text-align: center; */
+}
+
+.about__title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about__description {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* text-align: center; */
+    font-size: var(--size-base);
+    color: var(--sly-txt);
+    max-width: 55ch;
+}
+.about__menu {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1em;
+    text-align: start;
+    padding-left: 2em;
+    color: var(--sly-txt);
+    margin: 1rem auto;
+}
+
+.about__list    {
+    list-style-type: '\1F44D';
+    padding-left: 0;
+}
+
+.about__list::before {
+    content: '';
+    margin-left: 1em;
+}
+
+
+.about__subtitle {
+    color: var(--sly-txt);
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* xs */
+/* @media (min-width: 475px) {
+} */
+
+/* sm */
+@media (min-width: 640px) {
+    .about__description {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: var(--size-base);
+        color: var(--sly-txt);
+        max-width: 65ch;
+        justify-content: center;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .about__description {
+        max-width: 100ch;
+    }
+    .about__menu-container {
+        display: flex;
+    }
+    .about__menu-container {
+        flex: 1;
+    }
+    .about__picture {
+        width: 400px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__separators {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .about__description {
+        max-width: 120ch;
+    }
+    .about__menu-container {
+        display: flex;
+        width: 50%;
+        flex: 1;
+    }
+    .about__menu{
+        width: 50%;
+    }
+
+    hr {
+        width: 100%;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .about__description {
+        max-width: 75ch;
+    }
+
+    .about__picture {
+        width: 400px;
+        margin: 0 auto;
+        
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
